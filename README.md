@@ -15,6 +15,7 @@ Here the command `chmod g-r project_m.txt` was used to remove **read access** fr
 This ensures that the file cannot be read by group members, reducing the risk of unauthorized access.
 
 ### 3. Adjusting user and group permissions on project_x.txt
+!https://github.com/Dai05/Linux-Permissions/blob/main/screenshots/chmod%20u.png?raw=true
 
 The command `chmod u-w,g-w,g+r project_x.txt` modified the permissions for `project_x.txt`:  
 - User write permission removed.  
