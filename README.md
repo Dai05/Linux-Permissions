@@ -23,6 +23,7 @@ The command `chmod u-w,g-w,g+r project_x.txt` modified the permissions for `proj
 - Group read permission added.
 
 - ### 4. Restricting access to the drafts directory
+- ![screenshots/chmod-g-drafts.png](https://github.com/Dai05/Linux-Permissions/blob/274f0774f66d1c0d1c9581775e29360c11194bc8/screenshots/chmod-g-drafts.png)
 
 
 The final step applied `chmod g-x drafts` to the *drafts* directory, removing **execute (traverse) permission** for the group.  
