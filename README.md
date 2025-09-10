@@ -13,3 +13,16 @@ It lists the existing file and directory permissions, which were later analyzed 
 
 Here the command `chmod g-r project_m.txt` was used to remove **read access** from the group for `project_m.txt`.  
 This ensures that the file cannot be read by group members, reducing the risk of unauthorized access.
+
+### 3. Adjusting user and group permissions on project_x.txt
+
+The command `chmod u-w,g-w,g+r project_x.txt` modified the permissions for `project_x.txt`:  
+- User write permission removed.  
+- Group write permission removed.  
+- Group read permission added.
+
+- ### 4. Restricting access to the drafts directory
+
+
+The final step applied `chmod g-x drafts` to the *drafts* directory, removing **execute (traverse) permission** for the group.  
+Without this permission, group members cannot enter or navigate the directory, effectively restricting access to its contents.
