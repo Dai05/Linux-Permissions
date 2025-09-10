@@ -21,6 +21,7 @@ The command `chmod u-w,g-w,g+r project_x.txt` modified the permissions for `proj
 - User write permission removed.  
 - Group write permission removed.  
 - Group read permission added.
+This enforces stricter control, preventing unauthorized modifications while still allowing read access to the group.
 
 - ### 4. Restricting access to the drafts directory
 - ![screenshots/chmod-g-drafts.png](https://github.com/Dai05/Linux-Permissions/blob/274f0774f66d1c0d1c9581775e29360c11194bc8/screenshots/chmod-g-drafts.png)
