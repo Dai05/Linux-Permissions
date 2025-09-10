@@ -9,7 +9,7 @@ This screenshot shows the use of the `ls -l` command inside the *projects* direc
 It lists the existing file and directory permissions, which were later analyzed to detect insecure configurations.
 
 ### 2. Restricting group permissions on project_m.txt
-!https://github.com/Dai05/Linux-Permissions/blob/032082a740ed32672cc58a4208c9b86c0eda4351/screenshots/Chmod%20g.png
+!screenshots/Chmod g.png
 
 Here the command `chmod g-r project_m.txt` was used to remove **read access** from the group for `project_m.txt`.  
 This ensures that the file cannot be read by group members, reducing the risk of unauthorized access.
