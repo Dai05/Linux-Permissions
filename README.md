@@ -7,3 +7,8 @@ This project demonstrates the management and auditing of file and directory perm
 
 This screenshot shows the use of the `ls -l` command inside the *projects* directory.  
 It lists the existing file and directory permissions, which were later analyzed to detect insecure configurations.
+
+### 2. Restricting group permissions on project_m.txt
+
+Here the command `chmod g-r project_m.txt` was used to remove **read access** from the group for `project_m.txt`.  
+This ensures that the file cannot be read by group members, reducing the risk of unauthorized access.
