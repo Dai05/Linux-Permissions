@@ -3,7 +3,7 @@ This project demonstrates the management and auditing of file and directory perm
 ## Screenshots
 
 ### Checking file and directory details
-[screenshots/cd ls -l.png](https://github.com/Dai05/Linux-Permissions/blob/822c832fb58f48c01b95754fbc1adf57030c77c2/screenshots/cd%20ls%20-l.png)
+![screenshots/cd ls -l.png](https://github.com/Dai05/Linux-Permissions/blob/822c832fb58f48c01b95754fbc1adf57030c77c2/screenshots/cd%20ls%20-l.png)
 
 This screenshot shows the use of the `ls -l` command inside the *projects* directory.  
 It lists the existing file and directory permissions, which were later analyzed to detect insecure configurations.
